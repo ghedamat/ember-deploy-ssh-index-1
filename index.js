@@ -1,6 +1,17 @@
 /* jshint node: true */
 'use strict';
-
-module.exports = {
-  name: 'ember-deploy-ssh-index'
-};
+ 
+var IndexAdapter = require('./lib/index-adapter');
+ 
+function EmberDeploySshIndex() {
+  this.name = 'ember-deploy-ssh-index';
+  this.type = 'ember-deploy-addon';
+ 
+  this.adapters = {
+    index: {
+      'ssh': IndexAdapter
+    }
+  };
+}
+ 
+module.exports = EmberDeploySshIndex;

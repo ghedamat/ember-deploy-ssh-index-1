@@ -1,4 +1,5 @@
-# Ember-deploy-ssh-index
+# Ember-deploy-ssh-index [![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-deploy-ssh-index.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+
 
 This README outlines the details of collaborating on this Ember addon.
 
